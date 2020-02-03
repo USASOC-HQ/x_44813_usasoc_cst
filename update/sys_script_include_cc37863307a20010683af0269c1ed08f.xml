@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>true</active>
+        <api_name>x_44813_usasoc_cst.TaskHelper</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description/>
+        <name>TaskHelper</name>
+        <script><![CDATA[var TaskHelper = (function () {
+	var taskHelperConstructor = Class.create();
+	function getCaller(task) {
+		/*
+                .Feedback[Knowledge Feedback Task]User VIP = true
+                .Request[Requested Item]Requested for VIP = true
+                .Incident[Security Incident]Caller VIP = true
+                .Affected user[Security Incident Response Task]VIP = true
+                    .Caller[Service Order]VIP = true
+            */
+		var caller;
+		switch ('' + task.sys_class_name) {
+			case 'incident':
+				caller = task.caller_id;
+				break;
+			case 'change_request_imac':
+				caller = task.move_user;
+				break;
+			case 'incident_task':
+				caller = task.incident.caller_id;
+				break;
+			case 'kb_feedback_task':
+				break;
+			case 'sn_si_incident':
+				break;
+			case 'sn_si_task':
+				break;
+			case 'sm_task':
+				break;
+			case 'sc_request':
+				caller = task.requested_for;
+				break;
+			case 'sc_req_item':
+				caller = task.request.requested_for;
+				break;
+			case 'sc_task':
+				caller = task.request.requested_for;
+				break;
+		}
+		if (!gs.nil(caller))
+			return caller;
+	}
+	function isVip(task) {
+		var caller = getCaller(task);
+		return typeof caller !== 'undefined' && caller.vip == true;
+	}
+	taskHelperConstructor.getCaller = getCaller;
+	taskHelperConstructor.isVip = isVip;
+	taskHelperConstructor.prototype = {
+		_task: undefined,
+		initialize: function (task) {
+			var gr;
+			if (typeof task === 'string') {
+				gr = new GlideRecord('task');
+				gr.addQuery('sys_id', task);
+				gr.query();
+				if (!gr.next())
+					throw new Error("Task not found");
+				this._task = gr;
+			}
+			else {
+				if (gs.nil(task))
+					throw new Error("No task specified");
+				if (task instanceof GlideRecord) {
+					if (task.isNewRecord() || !task.isValidRecord())
+						throw new Error("Not a valiid task record");
+					this._task = task;
+				}
+				else {
+					this._task = task.getRefRecord();
+					if (gs.nil(this._task))
+						throw new Error("No task referenced");
+				}
+			}
+			var n = this._task.getRecordClassName();
+			if (n == this._task.getTableName() || !gs.tableExists(n))
+				return;
+			try {
+				gr = new GlideRecord(n);
+				gr.addQuery('sys_id', task);
+				gr.query();
+				if (gr.next())
+					this._task = gr;
+			}
+			catch ( /* okay to ignore */_a) { /* okay to ignore */ }
+		},
+		getCaller: function () {
+			return getCaller(this._task);
+		},
+		isVip: function () {
+			return isVip(this._task);
+		},
+		type: 'TaskHelper'
+	};
+	return taskHelperConstructor;
+})();]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>erwinel_da</sys_created_by>
+        <sys_created_on>2020-01-31 19:12:02</sys_created_on>
+        <sys_id>cc37863307a20010683af0269c1ed08f</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>TaskHelper</sys_name>
+        <sys_package display_value="USASOC Customizations" source="x_44813_usasoc_cst">2872713307620010683af0269c1ed0fc</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="USASOC Customizations">2872713307620010683af0269c1ed0fc</sys_scope>
+        <sys_update_name>sys_script_include_cc37863307a20010683af0269c1ed08f</sys_update_name>
+        <sys_updated_by>erwinel_da</sys_updated_by>
+        <sys_updated_on>2020-02-03 17:26:54</sys_updated_on>
+    </sys_script_include>
+</record_update>
