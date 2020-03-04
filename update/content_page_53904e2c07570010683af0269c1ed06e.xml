@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update node_type="content_page" unload_date="2020-03-04 20:27:09">
+    <sys_portal action="delete_multiple" query="page=53904e2c07570010683af0269c1ed06e">
+        <related_items_node>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone>dropzone20</dropzone>
+                <offset>0</offset>
+                <page display_value="Usage">53904e2c07570010683af0269c1ed06e</page>
+                <summary/>
+                <sys_created_by>erwinel_da</sys_created_by>
+                <sys_created_on>2020-02-28 00:03:25</sys_created_on>
+                <sys_id>67cec22807970010683af0269c1ed0f9</sys_id>
+                <sys_mod_count>0</sys_mod_count>
+                <sys_updated_by>erwinel_da</sys_updated_by>
+                <sys_updated_on>2020-02-28 00:03:25</sys_updated_on>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 2020-02-27 19:03:25">67cec22807970010683af0269c1ed0f9</portal_section>
+                        <sys_created_by>erwinel_da</sys_created_by>
+                        <sys_created_on>2020-02-28 00:03:25</sys_created_on>
+                        <sys_id>63cec22807970010683af0269c1ed0fa</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>erwinel_da</sys_updated_by>
+                        <sys_updated_on>2020-02-28 00:03:25</sys_updated_on>
+                        <value>USASOC Top Level Menu</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 2020-02-27 19:03:25">67cec22807970010683af0269c1ed0f9</portal_section>
+                        <sys_created_by>erwinel_da</sys_created_by>
+                        <sys_created_on>2020-02-28 00:03:25</sys_created_on>
+                        <sys_id>6fcec22807970010683af0269c1ed0f9</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>erwinel_da</sys_updated_by>
+                        <sys_updated_on>2020-02-28 00:03:25</sys_updated_on>
+                        <value>com.glide.cms.RenderBlock</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 2020-02-27 19:03:25">67cec22807970010683af0269c1ed0f9</portal_section>
+                        <sys_created_by>erwinel_da</sys_created_by>
+                        <sys_created_on>2020-02-28 00:03:25</sys_created_on>
+                        <sys_id>e7cec22807970010683af0269c1ed0f9</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>erwinel_da</sys_updated_by>
+                        <sys_updated_on>2020-02-28 00:03:25</sys_updated_on>
+                        <value>6be4c22007970010683af0269c1ed04d</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>type</name>
+                        <portal_section display_value="Created 2020-02-27 19:03:25">67cec22807970010683af0269c1ed0f9</portal_section>
+                        <sys_created_by>erwinel_da</sys_created_by>
+                        <sys_created_on>2020-02-28 00:03:25</sys_created_on>
+                        <sys_id>e7cec22807970010683af0269c1ed0fa</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>erwinel_da</sys_updated_by>
+                        <sys_updated_on>2020-02-28 00:03:25</sys_updated_on>
+                        <value>content_block_menu</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>current_page</name>
+                        <portal_section display_value="Created 2020-02-27 19:03:25">67cec22807970010683af0269c1ed0f9</portal_section>
+                        <sys_created_by>erwinel_da</sys_created_by>
+                        <sys_created_on>2020-02-28 00:03:25</sys_created_on>
+                        <sys_id>ebcec22807970010683af0269c1ed0fa</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>erwinel_da</sys_updated_by>
+                        <sys_updated_on>2020-02-28 00:03:25</sys_updated_on>
+                        <value>53904e2c07570010683af0269c1ed06e</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone>dropzone10</dropzone>
+                <offset>0</offset>
+                <page display_value="Usage">53904e2c07570010683af0269c1ed06e</page>
+                <summary/>
+                <sys_created_by>erwinel_da</sys_created_by>
+                <sys_created_on>2020-02-28 00:03:25</sys_created_on>
+                <sys_id>abcec62807970010683af0269c1ed01a</sys_id>
+                <sys_mod_count>0</sys_mod_count>
+                <sys_updated_by>erwinel_da</sys_updated_by>
+                <sys_updated_on>2020-02-28 00:03:25</sys_updated_on>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>current_page</name>
+                        <portal_section display_value="Created 2020-02-27 19:03:25">abcec62807970010683af0269c1ed01a</portal_section>
+                        <sys_created_by>erwinel_da</sys_created_by>
+                        <sys_created_on>2020-02-28 00:03:25</sys_created_on>
+                        <sys_id>23cec62807970010683af0269c1ed01c</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>erwinel_da</sys_updated_by>
+                        <sys_updated_on>2020-02-28 00:03:25</sys_updated_on>
+                        <value>53904e2c07570010683af0269c1ed06e</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 2020-02-27 19:03:25">abcec62807970010683af0269c1ed01a</portal_section>
+                        <sys_created_by>erwinel_da</sys_created_by>
+                        <sys_created_on>2020-02-28 00:03:25</sys_created_on>
+                        <sys_id>2fcec62807970010683af0269c1ed01a</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>erwinel_da</sys_updated_by>
+                        <sys_updated_on>2020-02-28 00:03:25</sys_updated_on>
+                        <value>4ffb9d1ec0a8000600198cd7a8117d25</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>type</name>
+                        <portal_section display_value="Created 2020-02-27 19:03:25">abcec62807970010683af0269c1ed01a</portal_section>
+                        <sys_created_by>erwinel_da</sys_created_by>
+                        <sys_created_on>2020-02-28 00:03:25</sys_created_on>
+                        <sys_id>2fcec62807970010683af0269c1ed01b</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>erwinel_da</sys_updated_by>
+                        <sys_updated_on>2020-02-28 00:03:25</sys_updated_on>
+                        <value>content_block_programmatic</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 2020-02-27 19:03:25">abcec62807970010683af0269c1ed01a</portal_section>
+                        <sys_created_by>erwinel_da</sys_created_by>
+                        <sys_created_on>2020-02-28 00:03:25</sys_created_on>
+                        <sys_id>a3cec62807970010683af0269c1ed01b</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>erwinel_da</sys_updated_by>
+                        <sys_updated_on>2020-02-28 00:03:25</sys_updated_on>
+                        <value>com.glide.cms.RenderBlock</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 2020-02-27 19:03:25">abcec62807970010683af0269c1ed01a</portal_section>
+                        <sys_created_by>erwinel_da</sys_created_by>
+                        <sys_created_on>2020-02-28 00:03:25</sys_created_on>
+                        <sys_id>a7cec62807970010683af0269c1ed01b</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>erwinel_da</sys_updated_by>
+                        <sys_updated_on>2020-02-28 00:03:25</sys_updated_on>
+                        <value>*New Static HTML</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+        </related_items_node>
+    </sys_portal>
+    <content_page action="INSERT_OR_UPDATE">
+        <content_site display_value="USASOC ServiceNow Documentation">879d7d6807570010683af0269c1ed0ec</content_site>
+        <content_theme/>
+        <description>ServiceNow usage documentation for USASOC implementation.</description>
+        <frame_buster>true</frame_buster>
+        <layout/>
+        <model_id/>
+        <model_table/>
+        <name>USASOC SN Usage</name>
+        <order/>
+        <parent_page/>
+        <read_roles/>
+        <roles/>
+        <selectable>true</selectable>
+        <sys_class_name>content_page</sys_class_name>
+        <sys_created_by>erwinel_da</sys_created_by>
+        <sys_created_on>2020-02-27 23:03:57</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>53904e2c07570010683af0269c1ed06e</sys_id>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_name>USASOC SN Usage</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="USASOC Customizations" source="x_44813_usasoc_cst">2872713307620010683af0269c1ed0fc</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="USASOC Customizations">2872713307620010683af0269c1ed0fc</sys_scope>
+        <sys_update_name>content_page_53904e2c07570010683af0269c1ed06e</sys_update_name>
+        <sys_updated_by>erwinel_da</sys_updated_by>
+        <sys_updated_on>2020-02-28 00:03:25</sys_updated_on>
+        <title>Usage</title>
+        <url_suffix>usage</url_suffix>
+        <user/>
+        <view/>
+        <workflow_state>published</workflow_state>
+    </content_page>
+</record_update>
