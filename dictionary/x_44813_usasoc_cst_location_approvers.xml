@@ -7,7 +7,6 @@
         <element label="Department" max_length="32" name="department" reference="cmn_department" type="reference"/>
         <element label="Location" max_length="32" name="location" reference="cmn_location" type="reference"/>
         <element default="100000" label="Order" mandatory="true" max_length="40" name="order" type="integer"/>
-        <element label="Require All" max_length="40" name="require_all" type="boolean"/>
         <element choice="3" default="all" label="Type" mandatory="true" max_length="40" name="type" type="choice">
             <choice>
                 <element inactive_on_update="false" label="Match All" sequence="100" value="all"/>

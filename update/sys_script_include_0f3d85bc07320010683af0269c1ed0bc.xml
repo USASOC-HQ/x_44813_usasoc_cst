@@ -8,61 +8,102 @@
         <description/>
         <name>USASOCCustomizations</name>
         <script><![CDATA[var USASOCCustomizations = (function () {
-	var usasocCustomizationsConstructor = Class.create();
-	usasocCustomizationsConstructor.EVENTNAME_TASK_UNASSIGNED = "x_44813_usasoc_cst.task.unassigned";
-	usasocCustomizationsConstructor.EVENTNAME_TASK_IDEA_NEW = "x_44813_usasoc_cst.idea.new";
-	usasocCustomizationsConstructor.PROPERTY_CATEGORY = "USASOC Customization Settings";
-	usasocCustomizationsConstructor.PROPERTYNAME_INSTANCE_SDLC_STAGE = "x_44813_usasoc_cst.instance_sdlc_stage";
-	usasocCustomizationsConstructor.PROPERTYNAME_NEW_IDEA_ASSIGNMENT_GROUP = "x_44813_usasoc_cst.new_idea_assignment_group";
-	usasocCustomizationsConstructor.prototype = {
-		initialize: function () {
-		},
-		getInstanceSdlcStage: function () {
-			var result = gs.getProperty(x_44813_usasoc_cst.USASOCCustomizations.PROPERTYNAME_INSTANCE_SDLC_STAGE, "");
-			switch (result) {
-				case "prod":
-				case "uat":
-				case "test":
-				case "dev":
-				case "sb":
-					return result;
-			}
-			return "none";
-		},
-		getNewIdeaAssignmentGroupSysId: function () {
-			var result = gs.getProperty(x_44813_usasoc_cst.USASOCCustomizations.PROPERTYNAME_NEW_IDEA_ASSIGNMENT_GROUP, "");
-			if (result.length > 0)
-				return result;
-		},
-		getNewIdeaAssignmentGroup: function () {
-			var sys_id = this.getNewIdeaAssignmentGroupSysId();
-			if (typeof sys_id == "string" && (typeof this._newIdeaAssignmentGroup === "undefined" || this._newIdeaAssignmentGroup.sys_id != sys_id)) {
-				var gr = new GlideRecord("");
-				gr.addQuery(sys_id);
-				gr.query();
-				if (gr.next())
-					this._newIdeaAssignmentGroup = gr;
-				else
-					this._newIdeaAssignmentGroup = { sys_id: sys_id };
-			}
-			if (typeof this._newIdeaAssignmentGroup === "object" && this._newIdeaAssignmentGroup instanceof GlideRecord)
-				return this._newIdeaAssignmentGroup;
-		},
-		type: "USASOCCustomizations"
-	};
-	return usasocCustomizationsConstructor;
+    var usasocCustomizationsConstructor = Class.create();
+    usasocCustomizationsConstructor.EVENTNAME_TASK_UNASSIGNED = "x_44813_usasoc_cst.task.unassigned";
+    usasocCustomizationsConstructor.EVENTNAME_TASK_IDEA_NEW = "x_44813_usasoc_cst.idea.new";
+    usasocCustomizationsConstructor.PROPERTY_CATEGORY = "USASOC Customization Settings";
+    usasocCustomizationsConstructor.PROPERTYNAME_INSTANCE_SDLC_STAGE = "x_44813_usasoc_cst.instance_sdlc_stage";
+    usasocCustomizationsConstructor.PROPERTYNAME_NEW_IDEA_ASSIGNMENT_GROUP = "x_44813_usasoc_cst.new_idea_assignment_group";
+    usasocCustomizationsConstructor.PROPERTYNAME_DEFAULT_GIT_INSTANCE_BASE_URL = "x_44813_usasoc_cst.default_git_instance_base_url";
+    usasocCustomizationsConstructor.PROPERTYNAME_DEFAULT_SC_CAT_APPROVER_GROUP = "x_44813_usasoc_cst.default_sc_cat_approver_group";
+    usasocCustomizationsConstructor.PROPERTYNAME_DEFAULT_SC_CAT_ASSIGNMENT_GROUP = "default_sc_cat_assignment_group";
+    usasocCustomizationsConstructor.prototype = {
+        initialize: function () {
+        },
+        getInstanceSdlcStage: function () {
+            var result = gs.getProperty(USASOCCustomizations.PROPERTYNAME_INSTANCE_SDLC_STAGE, "");
+            switch (result) {
+                case "prod":
+                case "uat":
+                case "test":
+                case "dev":
+                case "sb":
+                    return result;
+            }
+            return "none";
+        },
+        getNewIdeaAssignmentGroupSysId: function () {
+            var result = gs.getProperty(USASOCCustomizations.PROPERTYNAME_NEW_IDEA_ASSIGNMENT_GROUP, "");
+            if (result.length > 0)
+                return result;
+        },
+        getNewIdeaAssignmentGroup: function () {
+            var sys_id = this.getNewIdeaAssignmentGroupSysId();
+            if (typeof sys_id == "string" && (typeof this._newIdeaAssignmentGroup === "undefined" || this._newIdeaAssignmentGroup.sys_id != sys_id)) {
+                var gr = new GlideRecord("sys_user_group");
+                gr.addQuery(sys_id);
+                gr.query();
+                if (gr.next())
+                    this._newIdeaAssignmentGroup = gr;
+                else
+                    this._newIdeaAssignmentGroup = { sys_id: sys_id };
+            }
+            if (typeof this._newIdeaAssignmentGroup === "object" && this._newIdeaAssignmentGroup instanceof GlideRecord)
+                return this._newIdeaAssignmentGroup;
+        },
+        getDefaultScCatItemApprovalGroupSysId: function () {
+            var result = gs.getProperty(USASOCCustomizations.PROPERTYNAME_DEFAULT_SC_CAT_APPROVER_GROUP, "");
+            if (result.length > 0)
+                return result;
+        },
+        getDefaultScCatItemApprovalGroup: function () {
+            var sys_id = this.getDefaultScCatItemApprovalGroupSysId();
+            if (typeof sys_id == "string" && (typeof this._defaultScCatItemApprovalGroup === "undefined" || this._defaultScCatItemApprovalGroup.sys_id != sys_id)) {
+                var gr = new GlideRecord("sys_user_group");
+                gr.addQuery(sys_id);
+                gr.query();
+                if (gr.next())
+                    this._defaultScCatItemApprovalGroup = gr;
+                else
+                    this._defaultScCatItemApprovalGroup = { sys_id: sys_id };
+            }
+            if (typeof this._defaultScCatItemApprovalGroup === "object" && this._defaultScCatItemApprovalGroup instanceof GlideRecord)
+                return this._defaultScCatItemApprovalGroup;
+        },
+        getDefaultScCatItemAssignmentGroupSysId: function () {
+            var result = gs.getProperty(USASOCCustomizations.PROPERTYNAME_DEFAULT_SC_CAT_ASSIGNMENT_GROUP, "");
+            if (result.length > 0)
+                return result;
+        },
+        getDefaultScCatItemAssignmentGroup: function () {
+            var sys_id = this.getDefaultScCatItemAssignmentGroupSysId();
+            if (typeof sys_id == "string" && (typeof this._defaultScCatItemAssignmentGroup === "undefined" || this._defaultScCatItemApprovalGroup.sys_id != sys_id)) {
+                var gr = new GlideRecord("sys_user_group");
+                gr.addQuery(sys_id);
+                gr.query();
+                if (gr.next())
+                    this._defaultScCatItemAssignmentGroup = gr;
+                else
+                    this._defaultScCatItemAssignmentGroup = { sys_id: sys_id };
+            }
+            if (typeof this._defaultScCatItemAssignmentGroup === "object" && this._defaultScCatItemAssignmentGroup instanceof GlideRecord)
+                return this._defaultScCatItemAssignmentGroup;
+        },
+        type: "USASOCCustomizations"
+    };
+    return usasocCustomizationsConstructor;
 })();]]></script>
         <sys_class_name>sys_script_include</sys_class_name>
         <sys_created_by>erwinel_da</sys_created_by>
         <sys_created_on>2020-02-03 17:25:09</sys_created_on>
         <sys_id>0f3d85bc07320010683af0269c1ed0bc</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name>USASOCCustomizations</sys_name>
         <sys_package display_value="USASOC Customizations" source="x_44813_usasoc_cst">2872713307620010683af0269c1ed0fc</sys_package>
         <sys_policy>read</sys_policy>
         <sys_scope display_value="USASOC Customizations">2872713307620010683af0269c1ed0fc</sys_scope>
         <sys_update_name>sys_script_include_0f3d85bc07320010683af0269c1ed0bc</sys_update_name>
         <sys_updated_by>erwinel_da</sys_updated_by>
-        <sys_updated_on>2020-02-03 17:25:09</sys_updated_on>
+        <sys_updated_on>2020-03-04 22:07:46</sys_updated_on>
     </sys_script_include>
 </record_update>

@@ -7,7 +7,7 @@
         <license_category>none</license_category>
         <license_model>none</license_model>
         <logo/>
-        <menu/>
+        <menu display_value="USASOC Settings">3a2c03ca07530010683af0269c1ed073</menu>
         <name>USASOC Customizations</name>
         <private>false</private>
         <restrict_table_access>false</restrict_table_access>
@@ -23,9 +23,9 @@
         <sys_created_by>erwinel_da</sys_created_by>
         <sys_created_on>2020-01-31 17:32:40</sys_created_on>
         <sys_id>2872713307620010683af0269c1ed0fc</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>erwinel_da</sys_updated_by>
-        <sys_updated_on>2020-01-31 17:32:40</sys_updated_on>
+        <sys_updated_on>2020-03-06 18:59:21</sys_updated_on>
         <template/>
         <trackable>true</trackable>
         <user_role/>

@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="" section_id="e5ef260007a70010683af0269c1ed083" sys_domain="global" table="x_44813_usasoc_cst_location_approvers" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>0</position>
+            <sys_created_by>erwinel_da</sys_created_by>
+            <sys_created_on>2020-03-09 23:26:44</sys_created_on>
+            <sys_id>21ef260007a70010683af0269c1ed08a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_44813_usasoc_cst_location_approvers" sys_domain="global" view="Default view">e5ef260007a70010683af0269c1ed083</sys_ui_section>
+            <sys_updated_by>erwinel_da</sys_updated_by>
+            <sys_updated_on>2020-03-09 23:26:44</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>building</element>
+            <position>1</position>
+            <sys_created_by>erwinel_da</sys_created_by>
+            <sys_created_on>2020-03-09 23:26:44</sys_created_on>
+            <sys_id>29ef260007a70010683af0269c1ed08a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_44813_usasoc_cst_location_approvers" sys_domain="global" view="Default view">e5ef260007a70010683af0269c1ed083</sys_ui_section>
+            <sys_updated_by>erwinel_da</sys_updated_by>
+            <sys_updated_on>2020-03-09 23:26:44</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>location</element>
+            <position>2</position>
+            <sys_created_by>erwinel_da</sys_created_by>
+            <sys_created_on>2020-03-09 23:26:44</sys_created_on>
+            <sys_id>a9ef260007a70010683af0269c1ed08a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_44813_usasoc_cst_location_approvers" sys_domain="global" view="Default view">e5ef260007a70010683af0269c1ed083</sys_ui_section>
+            <sys_updated_by>erwinel_da</sys_updated_by>
+            <sys_updated_on>2020-03-09 23:26:44</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>department</element>
+            <position>3</position>
+            <sys_created_by>erwinel_da</sys_created_by>
+            <sys_created_on>2020-03-09 23:26:44</sys_created_on>
+            <sys_id>2def260007a70010683af0269c1ed08a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_44813_usasoc_cst_location_approvers" sys_domain="global" view="Default view">e5ef260007a70010683af0269c1ed083</sys_ui_section>
+            <sys_updated_by>erwinel_da</sys_updated_by>
+            <sys_updated_on>2020-03-09 23:26:44</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>company</element>
+            <position>4</position>
+            <sys_created_by>erwinel_da</sys_created_by>
+            <sys_created_on>2020-03-09 23:26:44</sys_created_on>
+            <sys_id>adef260007a70010683af0269c1ed08a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_44813_usasoc_cst_location_approvers" sys_domain="global" view="Default view">e5ef260007a70010683af0269c1ed083</sys_ui_section>
+            <sys_updated_by>erwinel_da</sys_updated_by>
+            <sys_updated_on>2020-03-09 23:26:44</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>business_unit</element>
+            <position>5</position>
+            <sys_created_by>erwinel_da</sys_created_by>
+            <sys_created_on>2020-03-09 23:26:44</sys_created_on>
+            <sys_id>21ef260007a70010683af0269c1ed08b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_44813_usasoc_cst_location_approvers" sys_domain="global" view="Default view">e5ef260007a70010683af0269c1ed083</sys_ui_section>
+            <sys_updated_by>erwinel_da</sys_updated_by>
+            <sys_updated_on>2020-03-09 23:26:44</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>6</position>
+            <sys_created_by>erwinel_da</sys_created_by>
+            <sys_created_on>2020-03-09 23:26:44</sys_created_on>
+            <sys_id>a1ef260007a70010683af0269c1ed08b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_44813_usasoc_cst_location_approvers" sys_domain="global" view="Default view">e5ef260007a70010683af0269c1ed083</sys_ui_section>
+            <sys_updated_by>erwinel_da</sys_updated_by>
+            <sys_updated_on>2020-03-09 23:26:44</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>type</element>
+            <position>7</position>
+            <sys_created_by>erwinel_da</sys_created_by>
+            <sys_created_on>2020-03-09 23:26:44</sys_created_on>
+            <sys_id>25ef260007a70010683af0269c1ed08b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_44813_usasoc_cst_location_approvers" sys_domain="global" view="Default view">e5ef260007a70010683af0269c1ed083</sys_ui_section>
+            <sys_updated_by>erwinel_da</sys_updated_by>
+            <sys_updated_on>2020-03-09 23:26:44</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>require_all</element>
+            <position>8</position>
+            <sys_created_by>erwinel_da</sys_created_by>
+            <sys_created_on>2020-03-09 23:26:44</sys_created_on>
+            <sys_id>a5ef260007a70010683af0269c1ed08b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_44813_usasoc_cst_location_approvers" sys_domain="global" view="Default view">e5ef260007a70010683af0269c1ed083</sys_ui_section>
+            <sys_updated_by>erwinel_da</sys_updated_by>
+            <sys_updated_on>2020-03-09 23:26:44</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>order</element>
+            <position>9</position>
+            <sys_created_by>erwinel_da</sys_created_by>
+            <sys_created_on>2020-03-09 23:26:44</sys_created_on>
+            <sys_id>29ef260007a70010683af0269c1ed08b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_44813_usasoc_cst_location_approvers" sys_domain="global" view="Default view">e5ef260007a70010683af0269c1ed083</sys_ui_section>
+            <sys_updated_by>erwinel_da</sys_updated_by>
+            <sys_updated_on>2020-03-09 23:26:44</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>approval_group</element>
+            <position>10</position>
+            <sys_created_by>erwinel_da</sys_created_by>
+            <sys_created_on>2020-03-09 23:26:44</sys_created_on>
+            <sys_id>a9ef260007a70010683af0269c1ed08b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_44813_usasoc_cst_location_approvers" sys_domain="global" view="Default view">e5ef260007a70010683af0269c1ed083</sys_ui_section>
+            <sys_updated_by>erwinel_da</sys_updated_by>
+            <sys_updated_on>2020-03-09 23:26:44</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>11</position>
+            <sys_created_by>erwinel_da</sys_created_by>
+            <sys_created_on>2020-03-09 23:26:44</sys_created_on>
+            <sys_id>2def260007a70010683af0269c1ed08b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_44813_usasoc_cst_location_approvers" sys_domain="global" view="Default view">e5ef260007a70010683af0269c1ed083</sys_ui_section>
+            <sys_updated_by>erwinel_da</sys_updated_by>
+            <sys_updated_on>2020-03-09 23:26:44</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption/>
+            <header>false</header>
+            <name>x_44813_usasoc_cst_location_approvers</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>erwinel_da</sys_created_by>
+            <sys_created_on>2020-03-09 23:26:44</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e5ef260007a70010683af0269c1ed083</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_44813_usasoc_cst_location_approvers</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="USASOC Customizations" source="x_44813_usasoc_cst">2872713307620010683af0269c1ed0fc</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="USASOC Customizations">2872713307620010683af0269c1ed0fc</sys_scope>
+            <sys_update_name>sys_ui_section_e5ef260007a70010683af0269c1ed083</sys_update_name>
+            <sys_updated_by>erwinel_da</sys_updated_by>
+            <sys_updated_on>2020-03-09 23:26:44</sys_updated_on>
+            <sys_user/>
+            <title>true</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>
