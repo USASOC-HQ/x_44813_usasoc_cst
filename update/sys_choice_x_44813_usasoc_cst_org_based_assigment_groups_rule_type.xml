@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="rule_type" table="x_44813_usasoc_cst_org_based_assigment_groups" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>rule_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Match All</label>
+            <language>en</language>
+            <name>x_44813_usasoc_cst_org_based_assigment_groups</name>
+            <sequence>100</sequence>
+            <sys_created_by>erwinel_da</sys_created_by>
+            <sys_created_on>2020-03-12 20:07:27</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>dd0f510907630010683af0269c1ed069</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>erwinel_da</sys_updated_by>
+            <sys_updated_on>2020-03-12 20:16:47</sys_updated_on>
+            <value>all</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>rule_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Match Any</label>
+            <language>en</language>
+            <name>x_44813_usasoc_cst_org_based_assigment_groups</name>
+            <sequence>200</sequence>
+            <sys_created_by>erwinel_da</sys_created_by>
+            <sys_created_on>2020-03-12 20:07:17</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>24fe990907630010683af0269c1ed096</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>erwinel_da</sys_updated_by>
+            <sys_updated_on>2020-03-12 20:16:43</sys_updated_on>
+            <value>any</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>rule_type</element>
+            <name>x_44813_usasoc_cst_org_based_assigment_groups</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>erwinel_da</sys_created_by>
+            <sys_created_on>2020-03-12 20:07:17</sys_created_on>
+            <sys_id>1d0f554907630010683af0269c1ed0f8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>rule_type</sys_name>
+            <sys_package display_value="USASOC Customizations" source="x_44813_usasoc_cst">2872713307620010683af0269c1ed0fc</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="USASOC Customizations">2872713307620010683af0269c1ed0fc</sys_scope>
+            <sys_update_name>sys_choice_x_44813_usasoc_cst_org_based_assigment_groups_rule_type</sys_update_name>
+            <sys_updated_by>erwinel_da</sys_updated_by>
+            <sys_updated_on>2020-03-12 20:07:17</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><record_update node_type="content_page" unload_date="2020-03-12 18:27:54">
+<?xml version="1.0" encoding="UTF-8"?><record_update node_type="content_page" unload_date="2020-03-26 20:33:40">
     <sys_portal action="delete_multiple" query="page=fa16866007970010683af0269c1ed007">
         <related_items_node>
             <sys_portal action="INSERT_OR_UPDATE">
@@ -12,174 +12,6 @@
                 <sys_mod_count>0</sys_mod_count>
                 <sys_updated_by>erwinel_da</sys_updated_by>
                 <sys_updated_on>2020-02-28 00:05:22</sys_updated_on>
-                <related_items_node>
-                    <sys_portal_preferences action="INSERT_OR_UPDATE">
-                        <name>sys_id</name>
-                        <portal_section display_value="Created 2020-02-27 19:05:22">5c4f4e2807970010683af0269c1ed076</portal_section>
-                        <sys_created_by>erwinel_da</sys_created_by>
-                        <sys_created_on>2020-02-28 00:05:22</sys_created_on>
-                        <sys_id>504f4e2807970010683af0269c1ed079</sys_id>
-                        <sys_mod_count>0</sys_mod_count>
-                        <sys_updated_by>erwinel_da</sys_updated_by>
-                        <sys_updated_on>2020-02-28 00:05:22</sys_updated_on>
-                        <value>6be4c22007970010683af0269c1ed04d</value>
-                    </sys_portal_preferences>
-                    <sys_portal_preferences action="INSERT_OR_UPDATE">
-                        <name>type</name>
-                        <portal_section display_value="Created 2020-02-27 19:05:22">5c4f4e2807970010683af0269c1ed076</portal_section>
-                        <sys_created_by>erwinel_da</sys_created_by>
-                        <sys_created_on>2020-02-28 00:05:22</sys_created_on>
-                        <sys_id>5c4f4e2807970010683af0269c1ed078</sys_id>
-                        <sys_mod_count>0</sys_mod_count>
-                        <sys_updated_by>erwinel_da</sys_updated_by>
-                        <sys_updated_on>2020-02-28 00:05:22</sys_updated_on>
-                        <value>content_block_menu</value>
-                    </sys_portal_preferences>
-                    <sys_portal_preferences action="INSERT_OR_UPDATE">
-                        <name>title_align</name>
-                        <portal_section display_value="Created 2020-02-27 19:05:22">5c4f4e2807970010683af0269c1ed076</portal_section>
-                        <sys_created_by>erwinel_da</sys_created_by>
-                        <sys_created_on>2020-02-28 00:05:22</sys_created_on>
-                        <sys_id>d04f4e2807970010683af0269c1ed077</sys_id>
-                        <sys_mod_count>0</sys_mod_count>
-                        <sys_updated_by>erwinel_da</sys_updated_by>
-                        <sys_updated_on>2020-02-28 00:05:22</sys_updated_on>
-                        <value>left</value>
-                    </sys_portal_preferences>
-                    <sys_portal_preferences action="INSERT_OR_UPDATE">
-                        <name>show_border</name>
-                        <portal_section display_value="Created 2020-02-27 19:05:22">5c4f4e2807970010683af0269c1ed076</portal_section>
-                        <sys_created_by>erwinel_da</sys_created_by>
-                        <sys_created_on>2020-02-28 00:05:22</sys_created_on>
-                        <sys_id>d04f4e2807970010683af0269c1ed078</sys_id>
-                        <sys_mod_count>0</sys_mod_count>
-                        <sys_updated_by>erwinel_da</sys_updated_by>
-                        <sys_updated_on>2020-02-28 00:05:22</sys_updated_on>
-                        <value>true</value>
-                    </sys_portal_preferences>
-                    <sys_portal_preferences action="INSERT_OR_UPDATE">
-                        <name>publisher_widget</name>
-                        <portal_section display_value="Created 2020-02-27 19:05:22">5c4f4e2807970010683af0269c1ed076</portal_section>
-                        <sys_created_by>erwinel_da</sys_created_by>
-                        <sys_created_on>2020-02-28 00:05:22</sys_created_on>
-                        <sys_id>d04f4e2807970010683af0269c1ed07a</sys_id>
-                        <sys_mod_count>0</sys_mod_count>
-                        <sys_updated_by>erwinel_da</sys_updated_by>
-                        <sys_updated_on>2020-02-28 00:05:22</sys_updated_on>
-                        <value/>
-                    </sys_portal_preferences>
-                    <sys_portal_preferences action="INSERT_OR_UPDATE">
-                        <name>filter_indicator</name>
-                        <portal_section display_value="Created 2020-02-27 19:05:22">5c4f4e2807970010683af0269c1ed076</portal_section>
-                        <sys_created_by>erwinel_da</sys_created_by>
-                        <sys_created_on>2020-02-28 00:05:22</sys_created_on>
-                        <sys_id>d44f4e2807970010683af0269c1ed077</sys_id>
-                        <sys_mod_count>0</sys_mod_count>
-                        <sys_updated_by>erwinel_da</sys_updated_by>
-                        <sys_updated_on>2020-02-28 00:05:22</sys_updated_on>
-                        <value/>
-                    </sys_portal_preferences>
-                    <sys_portal_preferences action="INSERT_OR_UPDATE">
-                        <name>title</name>
-                        <portal_section display_value="Created 2020-02-27 19:05:22">5c4f4e2807970010683af0269c1ed076</portal_section>
-                        <sys_created_by>erwinel_da</sys_created_by>
-                        <sys_created_on>2020-02-28 00:05:22</sys_created_on>
-                        <sys_id>d44f4e2807970010683af0269c1ed078</sys_id>
-                        <sys_mod_count>0</sys_mod_count>
-                        <sys_updated_by>erwinel_da</sys_updated_by>
-                        <sys_updated_on>2020-02-28 00:05:22</sys_updated_on>
-                        <value>USASOC Top Level Menu</value>
-                    </sys_portal_preferences>
-                    <sys_portal_preferences action="INSERT_OR_UPDATE">
-                        <name>subscriber_widget</name>
-                        <portal_section display_value="Created 2020-02-27 19:05:22">5c4f4e2807970010683af0269c1ed076</portal_section>
-                        <sys_created_by>erwinel_da</sys_created_by>
-                        <sys_created_on>2020-02-28 00:05:22</sys_created_on>
-                        <sys_id>d44f4e2807970010683af0269c1ed079</sys_id>
-                        <sys_mod_count>0</sys_mod_count>
-                        <sys_updated_by>erwinel_da</sys_updated_by>
-                        <sys_updated_on>2020-02-28 00:05:22</sys_updated_on>
-                        <value/>
-                    </sys_portal_preferences>
-                    <sys_portal_preferences action="INSERT_OR_UPDATE">
-                        <name>current_page</name>
-                        <portal_section display_value="Created 2020-02-27 19:05:22">5c4f4e2807970010683af0269c1ed076</portal_section>
-                        <sys_created_by>erwinel_da</sys_created_by>
-                        <sys_created_on>2020-02-28 00:05:22</sys_created_on>
-                        <sys_id>d44f4e2807970010683af0269c1ed07a</sys_id>
-                        <sys_mod_count>0</sys_mod_count>
-                        <sys_updated_by>erwinel_da</sys_updated_by>
-                        <sys_updated_on>2020-02-28 00:05:22</sys_updated_on>
-                        <value>fa16866007970010683af0269c1ed007</value>
-                    </sys_portal_preferences>
-                    <sys_portal_preferences action="INSERT_OR_UPDATE">
-                        <name>title_size</name>
-                        <portal_section display_value="Created 2020-02-27 19:05:22">5c4f4e2807970010683af0269c1ed076</portal_section>
-                        <sys_created_by>erwinel_da</sys_created_by>
-                        <sys_created_on>2020-02-28 00:05:22</sys_created_on>
-                        <sys_id>d84f4e2807970010683af0269c1ed077</sys_id>
-                        <sys_mod_count>0</sys_mod_count>
-                        <sys_updated_by>erwinel_da</sys_updated_by>
-                        <sys_updated_on>2020-02-28 00:05:22</sys_updated_on>
-                        <value>10pt</value>
-                    </sys_portal_preferences>
-                    <sys_portal_preferences action="INSERT_OR_UPDATE">
-                        <name>widget_height</name>
-                        <portal_section display_value="Created 2020-02-27 19:05:22">5c4f4e2807970010683af0269c1ed076</portal_section>
-                        <sys_created_by>erwinel_da</sys_created_by>
-                        <sys_created_on>2020-02-28 00:05:22</sys_created_on>
-                        <sys_id>d84f4e2807970010683af0269c1ed079</sys_id>
-                        <sys_mod_count>0</sys_mod_count>
-                        <sys_updated_by>erwinel_da</sys_updated_by>
-                        <sys_updated_on>2020-02-28 00:05:22</sys_updated_on>
-                        <value/>
-                    </sys_portal_preferences>
-                    <sys_portal_preferences action="INSERT_OR_UPDATE">
-                        <name>renderer</name>
-                        <portal_section display_value="Created 2020-02-27 19:05:22">5c4f4e2807970010683af0269c1ed076</portal_section>
-                        <sys_created_by>erwinel_da</sys_created_by>
-                        <sys_created_on>2020-02-28 00:05:22</sys_created_on>
-                        <sys_id>dc4f4e2807970010683af0269c1ed076</sys_id>
-                        <sys_mod_count>0</sys_mod_count>
-                        <sys_updated_by>erwinel_da</sys_updated_by>
-                        <sys_updated_on>2020-02-28 00:05:22</sys_updated_on>
-                        <value>com.glide.cms.RenderBlock</value>
-                    </sys_portal_preferences>
-                    <sys_portal_preferences action="INSERT_OR_UPDATE">
-                        <name>real_time</name>
-                        <portal_section display_value="Created 2020-02-27 19:05:22">5c4f4e2807970010683af0269c1ed076</portal_section>
-                        <sys_created_by>erwinel_da</sys_created_by>
-                        <sys_created_on>2020-02-28 00:05:22</sys_created_on>
-                        <sys_id>dc4f4e2807970010683af0269c1ed077</sys_id>
-                        <sys_mod_count>0</sys_mod_count>
-                        <sys_updated_by>erwinel_da</sys_updated_by>
-                        <sys_updated_on>2020-02-28 00:05:22</sys_updated_on>
-                        <value/>
-                    </sys_portal_preferences>
-                    <sys_portal_preferences action="INSERT_OR_UPDATE">
-                        <name>show_title</name>
-                        <portal_section display_value="Created 2020-02-27 19:05:22">5c4f4e2807970010683af0269c1ed076</portal_section>
-                        <sys_created_by>erwinel_da</sys_created_by>
-                        <sys_created_on>2020-02-28 00:05:22</sys_created_on>
-                        <sys_id>dc4f4e2807970010683af0269c1ed079</sys_id>
-                        <sys_mod_count>0</sys_mod_count>
-                        <sys_updated_by>erwinel_da</sys_updated_by>
-                        <sys_updated_on>2020-02-28 00:05:22</sys_updated_on>
-                        <value>true</value>
-                    </sys_portal_preferences>
-                </related_items_node>
-            </sys_portal>
-            <sys_portal action="INSERT_OR_UPDATE">
-                <dropzone>dropzone10</dropzone>
-                <offset>0</offset>
-                <page display_value="Initial Configuration">fa16866007970010683af0269c1ed007</page>
-                <summary>USASOC Initial Configuration</summary>
-                <sys_created_by>erwinel_da</sys_created_by>
-                <sys_created_on>2020-02-28 00:05:22</sys_created_on>
-                <sys_id>5c4f4e2807970010683af0269c1ed07f</sys_id>
-                <sys_mod_count>1</sys_mod_count>
-                <sys_updated_by>erwinel_da</sys_updated_by>
-                <sys_updated_on>2020-02-28 00:27:44</sys_updated_on>
                 <related_items_node>
                     <sys_portal_preferences action="INSERT_OR_UPDATE">
                         <name>renderer</name>
@@ -238,6 +70,174 @@
                     </sys_portal_preferences>
                 </related_items_node>
             </sys_portal>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone>dropzone10</dropzone>
+                <offset>0</offset>
+                <page display_value="Initial Configuration">fa16866007970010683af0269c1ed007</page>
+                <summary>USASOC Initial Configuration</summary>
+                <sys_created_by>erwinel_da</sys_created_by>
+                <sys_created_on>2020-02-28 00:05:22</sys_created_on>
+                <sys_id>5c4f4e2807970010683af0269c1ed07f</sys_id>
+                <sys_mod_count>1</sys_mod_count>
+                <sys_updated_by>erwinel_da</sys_updated_by>
+                <sys_updated_on>2020-02-28 00:27:44</sys_updated_on>
+            </sys_portal>
+        </related_items_node>
+        <related_items_node>
+            <sys_portal_preferences action="INSERT_OR_UPDATE">
+                <name>sys_id</name>
+                <portal_section display_value="Created 2020-02-27 19:05:22">5c4f4e2807970010683af0269c1ed076</portal_section>
+                <sys_created_by>erwinel_da</sys_created_by>
+                <sys_created_on>2020-02-28 00:05:22</sys_created_on>
+                <sys_id>504f4e2807970010683af0269c1ed079</sys_id>
+                <sys_mod_count>0</sys_mod_count>
+                <sys_updated_by>erwinel_da</sys_updated_by>
+                <sys_updated_on>2020-02-28 00:05:22</sys_updated_on>
+                <value>6be4c22007970010683af0269c1ed04d</value>
+            </sys_portal_preferences>
+            <sys_portal_preferences action="INSERT_OR_UPDATE">
+                <name>type</name>
+                <portal_section display_value="Created 2020-02-27 19:05:22">5c4f4e2807970010683af0269c1ed076</portal_section>
+                <sys_created_by>erwinel_da</sys_created_by>
+                <sys_created_on>2020-02-28 00:05:22</sys_created_on>
+                <sys_id>5c4f4e2807970010683af0269c1ed078</sys_id>
+                <sys_mod_count>0</sys_mod_count>
+                <sys_updated_by>erwinel_da</sys_updated_by>
+                <sys_updated_on>2020-02-28 00:05:22</sys_updated_on>
+                <value>content_block_menu</value>
+            </sys_portal_preferences>
+            <sys_portal_preferences action="INSERT_OR_UPDATE">
+                <name>title_align</name>
+                <portal_section display_value="Created 2020-02-27 19:05:22">5c4f4e2807970010683af0269c1ed076</portal_section>
+                <sys_created_by>erwinel_da</sys_created_by>
+                <sys_created_on>2020-02-28 00:05:22</sys_created_on>
+                <sys_id>d04f4e2807970010683af0269c1ed077</sys_id>
+                <sys_mod_count>0</sys_mod_count>
+                <sys_updated_by>erwinel_da</sys_updated_by>
+                <sys_updated_on>2020-02-28 00:05:22</sys_updated_on>
+                <value>left</value>
+            </sys_portal_preferences>
+            <sys_portal_preferences action="INSERT_OR_UPDATE">
+                <name>show_border</name>
+                <portal_section display_value="Created 2020-02-27 19:05:22">5c4f4e2807970010683af0269c1ed076</portal_section>
+                <sys_created_by>erwinel_da</sys_created_by>
+                <sys_created_on>2020-02-28 00:05:22</sys_created_on>
+                <sys_id>d04f4e2807970010683af0269c1ed078</sys_id>
+                <sys_mod_count>0</sys_mod_count>
+                <sys_updated_by>erwinel_da</sys_updated_by>
+                <sys_updated_on>2020-02-28 00:05:22</sys_updated_on>
+                <value>true</value>
+            </sys_portal_preferences>
+            <sys_portal_preferences action="INSERT_OR_UPDATE">
+                <name>publisher_widget</name>
+                <portal_section display_value="Created 2020-02-27 19:05:22">5c4f4e2807970010683af0269c1ed076</portal_section>
+                <sys_created_by>erwinel_da</sys_created_by>
+                <sys_created_on>2020-02-28 00:05:22</sys_created_on>
+                <sys_id>d04f4e2807970010683af0269c1ed07a</sys_id>
+                <sys_mod_count>0</sys_mod_count>
+                <sys_updated_by>erwinel_da</sys_updated_by>
+                <sys_updated_on>2020-02-28 00:05:22</sys_updated_on>
+                <value/>
+            </sys_portal_preferences>
+            <sys_portal_preferences action="INSERT_OR_UPDATE">
+                <name>filter_indicator</name>
+                <portal_section display_value="Created 2020-02-27 19:05:22">5c4f4e2807970010683af0269c1ed076</portal_section>
+                <sys_created_by>erwinel_da</sys_created_by>
+                <sys_created_on>2020-02-28 00:05:22</sys_created_on>
+                <sys_id>d44f4e2807970010683af0269c1ed077</sys_id>
+                <sys_mod_count>0</sys_mod_count>
+                <sys_updated_by>erwinel_da</sys_updated_by>
+                <sys_updated_on>2020-02-28 00:05:22</sys_updated_on>
+                <value/>
+            </sys_portal_preferences>
+            <sys_portal_preferences action="INSERT_OR_UPDATE">
+                <name>title</name>
+                <portal_section display_value="Created 2020-02-27 19:05:22">5c4f4e2807970010683af0269c1ed076</portal_section>
+                <sys_created_by>erwinel_da</sys_created_by>
+                <sys_created_on>2020-02-28 00:05:22</sys_created_on>
+                <sys_id>d44f4e2807970010683af0269c1ed078</sys_id>
+                <sys_mod_count>0</sys_mod_count>
+                <sys_updated_by>erwinel_da</sys_updated_by>
+                <sys_updated_on>2020-02-28 00:05:22</sys_updated_on>
+                <value>USASOC Top Level Menu</value>
+            </sys_portal_preferences>
+            <sys_portal_preferences action="INSERT_OR_UPDATE">
+                <name>subscriber_widget</name>
+                <portal_section display_value="Created 2020-02-27 19:05:22">5c4f4e2807970010683af0269c1ed076</portal_section>
+                <sys_created_by>erwinel_da</sys_created_by>
+                <sys_created_on>2020-02-28 00:05:22</sys_created_on>
+                <sys_id>d44f4e2807970010683af0269c1ed079</sys_id>
+                <sys_mod_count>0</sys_mod_count>
+                <sys_updated_by>erwinel_da</sys_updated_by>
+                <sys_updated_on>2020-02-28 00:05:22</sys_updated_on>
+                <value/>
+            </sys_portal_preferences>
+            <sys_portal_preferences action="INSERT_OR_UPDATE">
+                <name>current_page</name>
+                <portal_section display_value="Created 2020-02-27 19:05:22">5c4f4e2807970010683af0269c1ed076</portal_section>
+                <sys_created_by>erwinel_da</sys_created_by>
+                <sys_created_on>2020-02-28 00:05:22</sys_created_on>
+                <sys_id>d44f4e2807970010683af0269c1ed07a</sys_id>
+                <sys_mod_count>0</sys_mod_count>
+                <sys_updated_by>erwinel_da</sys_updated_by>
+                <sys_updated_on>2020-02-28 00:05:22</sys_updated_on>
+                <value>fa16866007970010683af0269c1ed007</value>
+            </sys_portal_preferences>
+            <sys_portal_preferences action="INSERT_OR_UPDATE">
+                <name>title_size</name>
+                <portal_section display_value="Created 2020-02-27 19:05:22">5c4f4e2807970010683af0269c1ed076</portal_section>
+                <sys_created_by>erwinel_da</sys_created_by>
+                <sys_created_on>2020-02-28 00:05:22</sys_created_on>
+                <sys_id>d84f4e2807970010683af0269c1ed077</sys_id>
+                <sys_mod_count>0</sys_mod_count>
+                <sys_updated_by>erwinel_da</sys_updated_by>
+                <sys_updated_on>2020-02-28 00:05:22</sys_updated_on>
+                <value>10pt</value>
+            </sys_portal_preferences>
+            <sys_portal_preferences action="INSERT_OR_UPDATE">
+                <name>widget_height</name>
+                <portal_section display_value="Created 2020-02-27 19:05:22">5c4f4e2807970010683af0269c1ed076</portal_section>
+                <sys_created_by>erwinel_da</sys_created_by>
+                <sys_created_on>2020-02-28 00:05:22</sys_created_on>
+                <sys_id>d84f4e2807970010683af0269c1ed079</sys_id>
+                <sys_mod_count>0</sys_mod_count>
+                <sys_updated_by>erwinel_da</sys_updated_by>
+                <sys_updated_on>2020-02-28 00:05:22</sys_updated_on>
+                <value/>
+            </sys_portal_preferences>
+            <sys_portal_preferences action="INSERT_OR_UPDATE">
+                <name>renderer</name>
+                <portal_section display_value="Created 2020-02-27 19:05:22">5c4f4e2807970010683af0269c1ed076</portal_section>
+                <sys_created_by>erwinel_da</sys_created_by>
+                <sys_created_on>2020-02-28 00:05:22</sys_created_on>
+                <sys_id>dc4f4e2807970010683af0269c1ed076</sys_id>
+                <sys_mod_count>0</sys_mod_count>
+                <sys_updated_by>erwinel_da</sys_updated_by>
+                <sys_updated_on>2020-02-28 00:05:22</sys_updated_on>
+                <value>com.glide.cms.RenderBlock</value>
+            </sys_portal_preferences>
+            <sys_portal_preferences action="INSERT_OR_UPDATE">
+                <name>real_time</name>
+                <portal_section display_value="Created 2020-02-27 19:05:22">5c4f4e2807970010683af0269c1ed076</portal_section>
+                <sys_created_by>erwinel_da</sys_created_by>
+                <sys_created_on>2020-02-28 00:05:22</sys_created_on>
+                <sys_id>dc4f4e2807970010683af0269c1ed077</sys_id>
+                <sys_mod_count>0</sys_mod_count>
+                <sys_updated_by>erwinel_da</sys_updated_by>
+                <sys_updated_on>2020-02-28 00:05:22</sys_updated_on>
+                <value/>
+            </sys_portal_preferences>
+            <sys_portal_preferences action="INSERT_OR_UPDATE">
+                <name>show_title</name>
+                <portal_section display_value="Created 2020-02-27 19:05:22">5c4f4e2807970010683af0269c1ed076</portal_section>
+                <sys_created_by>erwinel_da</sys_created_by>
+                <sys_created_on>2020-02-28 00:05:22</sys_created_on>
+                <sys_id>dc4f4e2807970010683af0269c1ed079</sys_id>
+                <sys_mod_count>0</sys_mod_count>
+                <sys_updated_by>erwinel_da</sys_updated_by>
+                <sys_updated_on>2020-02-28 00:05:22</sys_updated_on>
+                <value>true</value>
+            </sys_portal_preferences>
         </related_items_node>
     </sys_portal>
     <content_page action="INSERT_OR_UPDATE">

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><record_update node_type="content_page" unload_date="2020-03-12 18:27:53">
+<?xml version="1.0" encoding="UTF-8"?><record_update node_type="content_page" unload_date="2020-03-26 20:33:40">
     <sys_portal action="delete_multiple" query="page=bbff312c07570010683af0269c1ed039">
         <related_items_node>
             <sys_portal action="INSERT_OR_UPDATE">
@@ -9,75 +9,6 @@
                 <sys_created_by>erwinel_da</sys_created_by>
                 <sys_created_on>2020-02-28 00:04:15</sys_created_on>
                 <sys_id>f3fe4a2807970010683af0269c1ed0e0</sys_id>
-                <sys_mod_count>0</sys_mod_count>
-                <sys_updated_by>erwinel_da</sys_updated_by>
-                <sys_updated_on>2020-02-28 00:04:15</sys_updated_on>
-                <related_items_node>
-                    <sys_portal_preferences action="INSERT_OR_UPDATE">
-                        <name>sys_id</name>
-                        <portal_section display_value="Created 2020-02-27 19:04:15">f3fe4a2807970010683af0269c1ed0e0</portal_section>
-                        <sys_created_by>erwinel_da</sys_created_by>
-                        <sys_created_on>2020-02-28 00:04:15</sys_created_on>
-                        <sys_id>77fe4a2807970010683af0269c1ed0e0</sys_id>
-                        <sys_mod_count>0</sys_mod_count>
-                        <sys_updated_by>erwinel_da</sys_updated_by>
-                        <sys_updated_on>2020-02-28 00:04:15</sys_updated_on>
-                        <value>4ffb9d1ec0a8000600198cd7a8117d25</value>
-                    </sys_portal_preferences>
-                    <sys_portal_preferences action="INSERT_OR_UPDATE">
-                        <name>type</name>
-                        <portal_section display_value="Created 2020-02-27 19:04:15">f3fe4a2807970010683af0269c1ed0e0</portal_section>
-                        <sys_created_by>erwinel_da</sys_created_by>
-                        <sys_created_on>2020-02-28 00:04:15</sys_created_on>
-                        <sys_id>77fe4a2807970010683af0269c1ed0e1</sys_id>
-                        <sys_mod_count>0</sys_mod_count>
-                        <sys_updated_by>erwinel_da</sys_updated_by>
-                        <sys_updated_on>2020-02-28 00:04:15</sys_updated_on>
-                        <value>content_block_programmatic</value>
-                    </sys_portal_preferences>
-                    <sys_portal_preferences action="INSERT_OR_UPDATE">
-                        <name>current_page</name>
-                        <portal_section display_value="Created 2020-02-27 19:04:15">f3fe4a2807970010683af0269c1ed0e0</portal_section>
-                        <sys_created_by>erwinel_da</sys_created_by>
-                        <sys_created_on>2020-02-28 00:04:15</sys_created_on>
-                        <sys_id>7bfe4a2807970010683af0269c1ed0e1</sys_id>
-                        <sys_mod_count>0</sys_mod_count>
-                        <sys_updated_by>erwinel_da</sys_updated_by>
-                        <sys_updated_on>2020-02-28 00:04:15</sys_updated_on>
-                        <value>bbff312c07570010683af0269c1ed039</value>
-                    </sys_portal_preferences>
-                    <sys_portal_preferences action="INSERT_OR_UPDATE">
-                        <name>renderer</name>
-                        <portal_section display_value="Created 2020-02-27 19:04:15">f3fe4a2807970010683af0269c1ed0e0</portal_section>
-                        <sys_created_by>erwinel_da</sys_created_by>
-                        <sys_created_on>2020-02-28 00:04:15</sys_created_on>
-                        <sys_id>fbfe4a2807970010683af0269c1ed0e0</sys_id>
-                        <sys_mod_count>0</sys_mod_count>
-                        <sys_updated_by>erwinel_da</sys_updated_by>
-                        <sys_updated_on>2020-02-28 00:04:15</sys_updated_on>
-                        <value>com.glide.cms.RenderBlock</value>
-                    </sys_portal_preferences>
-                    <sys_portal_preferences action="INSERT_OR_UPDATE">
-                        <name>title</name>
-                        <portal_section display_value="Created 2020-02-27 19:04:15">f3fe4a2807970010683af0269c1ed0e0</portal_section>
-                        <sys_created_by>erwinel_da</sys_created_by>
-                        <sys_created_on>2020-02-28 00:04:15</sys_created_on>
-                        <sys_id>fffe4a2807970010683af0269c1ed0e0</sys_id>
-                        <sys_mod_count>0</sys_mod_count>
-                        <sys_updated_by>erwinel_da</sys_updated_by>
-                        <sys_updated_on>2020-02-28 00:04:15</sys_updated_on>
-                        <value>*New Static HTML</value>
-                    </sys_portal_preferences>
-                </related_items_node>
-            </sys_portal>
-            <sys_portal action="INSERT_OR_UPDATE">
-                <dropzone>dropzone20</dropzone>
-                <offset>0</offset>
-                <page display_value="Administration">bbff312c07570010683af0269c1ed039</page>
-                <summary/>
-                <sys_created_by>erwinel_da</sys_created_by>
-                <sys_created_on>2020-02-28 00:04:15</sys_created_on>
-                <sys_id>fffe862807970010683af0269c1ed0e3</sys_id>
                 <sys_mod_count>0</sys_mod_count>
                 <sys_updated_by>erwinel_da</sys_updated_by>
                 <sys_updated_on>2020-02-28 00:04:15</sys_updated_on>
@@ -139,6 +70,75 @@
                     </sys_portal_preferences>
                 </related_items_node>
             </sys_portal>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone>dropzone20</dropzone>
+                <offset>0</offset>
+                <page display_value="Administration">bbff312c07570010683af0269c1ed039</page>
+                <summary/>
+                <sys_created_by>erwinel_da</sys_created_by>
+                <sys_created_on>2020-02-28 00:04:15</sys_created_on>
+                <sys_id>fffe862807970010683af0269c1ed0e3</sys_id>
+                <sys_mod_count>0</sys_mod_count>
+                <sys_updated_by>erwinel_da</sys_updated_by>
+                <sys_updated_on>2020-02-28 00:04:15</sys_updated_on>
+            </sys_portal>
+        </related_items_node>
+        <related_items_node>
+            <sys_portal_preferences action="INSERT_OR_UPDATE">
+                <name>sys_id</name>
+                <portal_section display_value="Created 2020-02-27 19:04:15">f3fe4a2807970010683af0269c1ed0e0</portal_section>
+                <sys_created_by>erwinel_da</sys_created_by>
+                <sys_created_on>2020-02-28 00:04:15</sys_created_on>
+                <sys_id>77fe4a2807970010683af0269c1ed0e0</sys_id>
+                <sys_mod_count>0</sys_mod_count>
+                <sys_updated_by>erwinel_da</sys_updated_by>
+                <sys_updated_on>2020-02-28 00:04:15</sys_updated_on>
+                <value>4ffb9d1ec0a8000600198cd7a8117d25</value>
+            </sys_portal_preferences>
+            <sys_portal_preferences action="INSERT_OR_UPDATE">
+                <name>type</name>
+                <portal_section display_value="Created 2020-02-27 19:04:15">f3fe4a2807970010683af0269c1ed0e0</portal_section>
+                <sys_created_by>erwinel_da</sys_created_by>
+                <sys_created_on>2020-02-28 00:04:15</sys_created_on>
+                <sys_id>77fe4a2807970010683af0269c1ed0e1</sys_id>
+                <sys_mod_count>0</sys_mod_count>
+                <sys_updated_by>erwinel_da</sys_updated_by>
+                <sys_updated_on>2020-02-28 00:04:15</sys_updated_on>
+                <value>content_block_programmatic</value>
+            </sys_portal_preferences>
+            <sys_portal_preferences action="INSERT_OR_UPDATE">
+                <name>current_page</name>
+                <portal_section display_value="Created 2020-02-27 19:04:15">f3fe4a2807970010683af0269c1ed0e0</portal_section>
+                <sys_created_by>erwinel_da</sys_created_by>
+                <sys_created_on>2020-02-28 00:04:15</sys_created_on>
+                <sys_id>7bfe4a2807970010683af0269c1ed0e1</sys_id>
+                <sys_mod_count>0</sys_mod_count>
+                <sys_updated_by>erwinel_da</sys_updated_by>
+                <sys_updated_on>2020-02-28 00:04:15</sys_updated_on>
+                <value>bbff312c07570010683af0269c1ed039</value>
+            </sys_portal_preferences>
+            <sys_portal_preferences action="INSERT_OR_UPDATE">
+                <name>renderer</name>
+                <portal_section display_value="Created 2020-02-27 19:04:15">f3fe4a2807970010683af0269c1ed0e0</portal_section>
+                <sys_created_by>erwinel_da</sys_created_by>
+                <sys_created_on>2020-02-28 00:04:15</sys_created_on>
+                <sys_id>fbfe4a2807970010683af0269c1ed0e0</sys_id>
+                <sys_mod_count>0</sys_mod_count>
+                <sys_updated_by>erwinel_da</sys_updated_by>
+                <sys_updated_on>2020-02-28 00:04:15</sys_updated_on>
+                <value>com.glide.cms.RenderBlock</value>
+            </sys_portal_preferences>
+            <sys_portal_preferences action="INSERT_OR_UPDATE">
+                <name>title</name>
+                <portal_section display_value="Created 2020-02-27 19:04:15">f3fe4a2807970010683af0269c1ed0e0</portal_section>
+                <sys_created_by>erwinel_da</sys_created_by>
+                <sys_created_on>2020-02-28 00:04:15</sys_created_on>
+                <sys_id>fffe4a2807970010683af0269c1ed0e0</sys_id>
+                <sys_mod_count>0</sys_mod_count>
+                <sys_updated_by>erwinel_da</sys_updated_by>
+                <sys_updated_on>2020-02-28 00:04:15</sys_updated_on>
+                <value>*New Static HTML</value>
+            </sys_portal_preferences>
         </related_items_node>
     </sys_portal>
     <content_page action="INSERT_OR_UPDATE">
