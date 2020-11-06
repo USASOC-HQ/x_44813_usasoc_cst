@@ -41,9 +41,9 @@
         <sys_mod_count>0</sys_mod_count>
         <sys_name>USASOC Idea Submitting</sys_name>
         <sys_overrides/>
-        <sys_package display_value="USASOC Customizations" source="x_44813_usasoc_cst">2872713307620010683af0269c1ed0fc</sys_package>
+        <sys_package display_value="USASOC Customizations (erwinel)" source="x_44813_usasoc_cst">2872713307620010683af0269c1ed0fc</sys_package>
         <sys_policy/>
-        <sys_scope display_value="USASOC Customizations">2872713307620010683af0269c1ed0fc</sys_scope>
+        <sys_scope display_value="USASOC Customizations (erwinel)">2872713307620010683af0269c1ed0fc</sys_scope>
         <sys_update_name>sys_script_32fbf53007f20010683af0269c1ed0a1</sys_update_name>
         <sys_updated_by>erwinel_da</sys_updated_by>
         <sys_updated_on>2020-02-03 20:49:06</sys_updated_on>

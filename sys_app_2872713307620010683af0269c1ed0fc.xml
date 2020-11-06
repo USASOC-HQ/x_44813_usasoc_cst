@@ -3,13 +3,14 @@
         <active>true</active>
         <can_edit_in_studio>false</can_edit_in_studio>
         <enforce_license>log</enforce_license>
+        <guided_setup_guid/>
         <js_level>helsinki_es5</js_level>
         <licensable>true</licensable>
         <license_category>none</license_category>
         <license_model>none</license_model>
         <logo/>
         <menu display_value="USASOC Settings">3a2c03ca07530010683af0269c1ed073</menu>
-        <name>USASOC Customizations</name>
+        <name>USASOC Customizations (erwinel)</name>
         <private>false</private>
         <restrict_table_access>false</restrict_table_access>
         <runtime_access_tracking>permissive</runtime_access_tracking>
@@ -24,9 +25,9 @@
         <sys_created_by>erwinel_da</sys_created_by>
         <sys_created_on>2020-01-31 17:32:40</sys_created_on>
         <sys_id>2872713307620010683af0269c1ed0fc</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_updated_by>erwinel_da</sys_updated_by>
-        <sys_updated_on>2020-03-10 01:43:10</sys_updated_on>
+        <sys_updated_on>2020-11-06 17:16:09</sys_updated_on>
         <template/>
         <trackable>true</trackable>
         <user_role/>

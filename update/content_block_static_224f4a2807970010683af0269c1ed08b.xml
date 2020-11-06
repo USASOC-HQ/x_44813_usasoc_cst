@@ -12,7 +12,7 @@
 <h2 class="card-title mb-0">1. Add Administrative Logins</h2>
 </div>
 <div class="card-body">
-<div class="detail">Navigate to <samp>Administration/<a href="/nav_to.do?uri&#61;%2Fsys_user_list.do" target="_blank" rel="nofollow">Users</a></samp> and create application administrative accounts in ServiceNow, assigning the following roles:
+<div class="detail">Navigate to <samp>Administration/<a href="/nav_to.do?uri&#61;%2Fsys_user_list.do" target="_blank" rel="noopener noreferrer nofollow">Users</a></samp> and create application administrative accounts in ServiceNow, assigning the following roles:
 <ul><li>admin</li><li>security_admin</li></ul>
 <p class="alert-info"><strong>Note:</strong> In order to be able to add the security_admin role, you will need to elevate roles to security_admin.</p>
 </div>
@@ -30,7 +30,7 @@
 </div>
 <div class="card-body">
 <div class="detail">
-<ol><li>Navigate to System Update Sets/<a href="/nav_to.do?uri&#61;%2Fsys_remote_update_set_list.do%3Fsysparm_fixed_query%3Dsys_class_name%253Dsys_remote_update_set" target="_blank" rel="nofollow">Retrieved Update Sets</a>.</li><li>Click on <a href="/nav_to.do?uri&#61;%2Fupload.do%3Fsysparm_referring_url%3Dsys_remote_update_set_list.do%253Fsysparm_fixed_query%253Dsys_class_name%253Dsys_remote_update_set%26sysparm_target%3Dsys_remote_update_set" target="_blank" rel="nofollow">Import Update Set from XML</a> and upload the Initial_Update_Set_1.xml file in the <var>sys_remote_update_set/setup/stage_1</var> folder of the sources directory.</li><li>Preview and commit the update set, which will be named <var>Initial Update Set Stage 1 V1</var>, to prepare the ServiceNow instance.</li></ol>
+<ol><li>Navigate to System Update Sets/<a href="/nav_to.do?uri&#61;%2Fsys_remote_update_set_list.do%3Fsysparm_fixed_query%3Dsys_class_name%253Dsys_remote_update_set" target="_blank" rel="noopener noreferrer nofollow">Retrieved Update Sets</a>.</li><li>Click on <a href="/nav_to.do?uri&#61;%2Fupload.do%3Fsysparm_referring_url%3Dsys_remote_update_set_list.do%253Fsysparm_fixed_query%253Dsys_class_name%253Dsys_remote_update_set%26sysparm_target%3Dsys_remote_update_set" target="_blank" rel="noopener noreferrer nofollow">Import Update Set from XML</a> and upload the Initial_Update_Set_1.xml file in the <var>sys_remote_update_set/setup/stage_1</var> folder of the sources directory.</li><li>Preview and commit the update set, which will be named <var>Initial Update Set Stage 1 V1</var>, to prepare the ServiceNow instance.</li></ol>
 </div>
 <div class="card">
 <div class="card-header p-1">
@@ -49,9 +49,9 @@
         <sys_id>224f4a2807970010683af0269c1ed08b</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>USASOC Initial Configuration</sys_name>
-        <sys_package display_value="USASOC Customizations" source="x_44813_usasoc_cst">2872713307620010683af0269c1ed0fc</sys_package>
+        <sys_package display_value="USASOC Customizations (erwinel)" source="x_44813_usasoc_cst">2872713307620010683af0269c1ed0fc</sys_package>
         <sys_policy/>
-        <sys_scope display_value="USASOC Customizations">2872713307620010683af0269c1ed0fc</sys_scope>
+        <sys_scope display_value="USASOC Customizations (erwinel)">2872713307620010683af0269c1ed0fc</sys_scope>
         <sys_update_name>content_block_static_224f4a2807970010683af0269c1ed08b</sys_update_name>
         <sys_updated_by>erwinel_da</sys_updated_by>
         <sys_updated_on>2020-02-28 00:27:44</sys_updated_on>
